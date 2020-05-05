@@ -1,0 +1,40 @@
+{
+  "name": "material-theme-dhc-mix-in-pycharm-darcula-theme",
+  "author": {
+    "name": "alexzshl"
+  },
+  "publisher": "alexzshl",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexzshl/vscode-material-theme-dhc-mix-in-pycharm-darcula-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/alexzshl/vscode-material-theme-dhc-mix-in-pycharm-darcula-theme/issues"
+  },
+  "homepage": "https://github.com/alexzshl/vscode-material-theme-dhc-mix-in-pycharm-darcula-theme",
+  "displayName": "Material Theme DHC Mix In Pycharm Darcula Theme",
+  "description": "Material Theme Darker High Contrast Mix In Pycharm Darcula Theme",
+  "keywords": [
+    "material",
+    "theme",
+    "pycharm",
+    "darkula"
+  ],
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.37.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Material Theme Darker High Contrast Mix In Pycharm Darcula Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/material-theme-dhc-mix-in-pycharm-darcula-theme.json"
+      }
+    ]
+  }
+}
