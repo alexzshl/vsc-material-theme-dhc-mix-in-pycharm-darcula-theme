@@ -1,0 +1,392 @@
+{
+"name": "Sense Theme Alex",
+"type": "dark",
+"colors": {
+    "editor.background": "#2b2b2b",
+    "editor.foreground": "#a9b7c6",
+    "activeBarBadge.background": "#007acc",
+    "sideBarTitle.foreground": "#bbbbbb"
+},
+"tokenColors": [
+    {
+        "name": "Keword",
+        "scope": [
+            "keyword"
+        ],
+        "settings": {
+            "foreground": "#cc7832"
+        }
+    },
+    {
+        "name": "String",
+        "scope": [
+            "string"
+        ],
+        "settings": {
+            "foreground": "#6a8759"
+        }
+    },
+    {
+        "name": "Constant",
+        "scope": [
+            "constant.numeric"
+        ],
+        "settings": {
+            "foreground": "#6897bb"
+        }
+    },
+    {
+        "name": "Class",
+        "scope": [
+            "meta.class"
+        ],
+        "settings": {
+            "foreground": "#a9b7c6"
+        }
+    },
+    {
+        "name": "Class Name",
+        "scope": [
+            "meta.class entity.name.type.class"
+        ],
+        "settings": {
+            "foreground": "#a9b7c6"
+        }
+    },
+    {
+        "name": "Function Definition, Special Method",
+        "scope": [
+            "entity.name.function",
+            "meta.function",
+            "variable.function",
+            "keyword.other.special-method"
+        ],
+        "settings": {
+            "foreground": "#ffc660"
+        }
+    },
+    {
+        "name": "Function Call",
+        "scope": [
+            "meta.function-call"
+        ],
+        "settings": {
+            "foreground": "#a9b7c6"
+        }
+    },
+    {
+        "name": "Method Call",
+        "scope": [
+            "meta.member meta.function-call"
+        ],
+        "settings": {
+            "foreground": "#008866"
+        }
+    },
+    {
+        "name": "Storage",
+        "scope": [
+            "storage.type",
+            "storage.modifier"
+        ],
+        "settings": {
+            "foreground": "#1f9"
+        }
+    },
+    {
+        "name": "Identifiers Definition Parameter",
+        "scope": [
+            "variable.parameter",
+            "variable.parameter.function",
+            "meta.function.parameters"
+        ],
+        "settings": {
+            "foreground": "#a9b7c6"
+        }
+    },
+    {
+        "name": "Identifiers Function-call Parameter",
+        "scope": [
+            "variable.parameter.function-call"
+        ],
+        "settings": {
+            "foreground": "#aa4926"
+        }
+    },
+    {
+        "name": "Variables",
+        "scope": [
+            "variable",
+            "string constant.other.placeholder"
+        ],
+        "settings": {
+            "foreground": "#eeff33"
+        }
+    },
+    {
+        "name": "Support Type",
+        "scope": [
+            "support.type"
+        ],
+        "settings": {
+            "foreground": "#8888c6"
+        }
+    },
+    {
+        "name": "Support Function",
+        "scope": [
+            "support.function"
+        ],
+        "settings": {
+            "foreground": "#8888c6"
+        }
+    },
+    {
+        "name": "Comment",
+        "scope": [
+            "comment",
+            "comment.line",
+            "punctuation.definition.comment"
+        ],
+        "settings": {
+            "fontstyle": "italic",
+            "foreground": "#808080"
+        }
+    },
+
+
+
+    {
+        "name": "String Quoted",
+        "scope": [
+            "string.quoted",
+            "punctuation.definition.string"
+        ],
+        "settings": {
+            "foreground": "#6a8759"
+        }
+    },
+    {
+        "name": "String Quoted Constant Charactor Escape",
+        "scope": [
+            "string.quoted constant.character.escape",
+            "meta.function-call constant.character.escape"
+        ],
+        "settings": {
+            "foreground": "#cc7832"
+        }
+    },
+    {
+        "name": "String Quoted Binary",
+        "scope": ["string.quoted.binary"],
+        "settings": {
+            "foreground": "#a5c261"
+        }
+    },
+    {
+        "name": "Invalid",
+        "scope": [
+            "invalid",
+            "invalid.illegal"
+        ],
+        "settings": {
+            "foreground": "#ff5370"
+        }
+    },
+
+    {
+        "name": "Keword Control Import",
+        "scope": "keyword.control.import",
+        "settings": {
+            "foreground": "#cc7832"
+        }
+    },
+    {
+        "name": "Keword Control Conditional",
+        "scope": [
+            "keyword.control.conditionnal"
+        ],
+        "settings": {
+            "foreground": "#cc7832"
+        }
+    },
+    {
+        "name": "Keword Operator",
+        "scope": [
+            "keyword.operator"
+        ],
+        "settings": {
+            "foreground": "#a9b7c6"
+        }
+    },
+    {
+        "name": "Keword Operator Arithmetic",
+        "scope": [
+            "keyword.operator.arithmetic"
+        ],
+        "settings": {
+            "foreground": "#a9b7c6"
+        }
+    },
+    {
+        "name": "Keword Operator Assignment",
+        "scope": [
+            "keyword.operator.assignment"
+        ],
+        "settings": {
+            "foreground": "#a9b7c6"
+        }
+    },
+    {
+        "name": "Misc",
+        "scope": [
+            "constant.other.color",
+            "punctuation",
+            "meta.tag",
+            "punctuation.definition.tag",
+            "puncturation.separator.inheritance.php",
+            "puncturation.definition.tag.html",
+            "puncturation.definition.tag.begin.html",
+            "puncturation.definition.tag.end.html",
+            "puncturation.section.embedded",
+            "keyword.other.template",
+            "keyword.other.substitution"
+        ],
+        "settings": {
+            "foreground": "#a9b7c6"
+        }
+    },
+    {
+        "name": "Tag",
+        "scope": [
+            "entity.name.tag",
+            "meta.tag.sgml",
+            "markup.deleted.git_gutter"
+        ],
+        "settings": {
+            "foreground": "#f00"
+        }
+    },
+    {
+        "name": "Member",
+        "scope": [
+            "meta.member"
+        ],
+        "settings": {
+            "foreground": "#a9b7c6"
+        }
+    },
+    {
+        "name": "Punctuation Separator Comma",
+        "scope": [
+            "punctuation.separator.element",
+            "punctuation.separator.arguments",
+            "punctuation.separator.parameters",
+            "punctuation.separator.period"
+        ],
+        "settings": {
+            "foreground": "#cc7832"
+        }
+    },
+    {
+        "name": "Punctuation Separator Comma",
+        "scope": "punctuation.separator.period",
+        "settings": {"foreground": "#dcdcdc"}
+    },
+    {
+        "name": "String Docstring",
+        "scope": [
+            "string.quoted.docstring"
+        ],
+        "settings": {
+            "foreground": "#629755"
+        }
+    },
+    {
+        "name": "Constant Language",
+        "scope": [
+            "constant.language"
+        ],
+        "settings": {
+            "foreground": "#cc7832"
+        }
+    },
+    {
+        "name": "Constant Colors",
+        "scope": [
+            "constant.other.color"
+        ],
+        "settings": {
+            "foreground": "#ffffff"
+        }
+    },
+
+
+
+    {
+        "name": "Python Source",
+        "scope": "source.python",
+        "settings": {
+            "foreground": "#a9b7c6",
+            "background": "#2b2b2b"
+        }
+    },
+    {
+        "name": "Python self parameter",
+        "scope": [
+            "variable.parameter.function.language.special.self.python",
+            "variable.language.special.self.python"
+        ],
+        "settings": {"foreground": "#9455bd"}
+    },
+    {
+        "name": "Python Decorator",
+        "scope": [
+            "source.python meta.function.decorator.python support.type.python"
+        ],
+        "settings": {
+            "foreground": "#bbb529"
+        }
+    },
+    {
+        "name": "Python Keyword",
+        "scope": [
+            "source.python keyword.control.flow.python",
+            "source.python meta.function.python storage.type.function.python",
+            "source.python meta.class.python storage.type.class.python"
+        ],
+        "settings": {
+            "foreground": "#cc7832"
+        }
+    },
+    {
+        "name": "Python Keyword argument",
+        "scope": [
+            "source.python meta.function.decorator.python meta.function-call.arguments.python variable.parameter.function-call.python"
+        ],
+        "settings": {
+            "foreground": "#aa4926"
+        }
+    },
+    {
+        "name": "Python Magic",
+        "scope": [
+            "source.python support.function.magic.python",
+            "source.python support.variable.magic.python"
+        ],
+        "settings": {
+            "foreground": "#b200b2"
+        }
+    },
+    {
+        "name": "Python fstring",
+        "scope": [
+            "meta.fstring.python string.quoted storage.type.string",
+            "meta.fstring.python constant.character.format.placeholder"
+        ],
+        "settings": {
+            "foreground": "#6a8759"
+        }
+    }
+]
+}

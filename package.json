@@ -36,5 +36,12 @@
         "path": "./themes/material-theme-dhc-mix-in-pycharm-darcula-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "vscode:package": "vsce package",
+    "vscode:publish": "vsce publish",
+    "vscode:publish:patch": "vsce publish patch",
+    "vscode:publish:minor": "vsce publish minor",
+    "vscode:publish:major": "vsce publish major"
   }
 }

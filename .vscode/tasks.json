@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "vscode:publish:patch",
+			"problemMatcher": [],
+			"label": "npm: vscode:publish:patch",
+			"detail": "vsce publish patch",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
