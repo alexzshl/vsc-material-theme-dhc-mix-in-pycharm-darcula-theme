@@ -1,8 +1,6 @@
 {
   "name": "material-theme-dhc-mix-in-pycharm-darcula-theme",
-  "author": {
-    "name": "alexzshl"
-  },
+  "author": {"name": "alexzshl"},
   "publisher": "alexzshl",
   "license": "MIT",
   "repository": {
@@ -19,7 +17,7 @@
     "material",
     "theme",
     "pycharm",
-    "darkula"
+    "darcula"
   ],
   "version": "0.0.7",
   "engines": {
@@ -31,9 +29,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Material Theme Darker High Contrast Mix In Pycharm Darcula Theme",
+        "label": "Material Theme Darker High Contrast + Darcula",
         "uiTheme": "vs-dark",
-        "path": "./themes/material-theme-dhc-mix-in-pycharm-darcula-theme.json"
+        "path": "./themes/material-theme-darker-high-contrast-darcula.json"
+      },
+      {
+        "label": "Material Theme Darker High Contrast + Darcula Italic ",
+        "uiTheme": "vs-dark",
+        "path": "./themes/material-theme-darker-high-contrast-darcula-italic.json"
       }
     ]
   },

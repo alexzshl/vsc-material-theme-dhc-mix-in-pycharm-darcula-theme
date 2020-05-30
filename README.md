@@ -1,5 +1,5 @@
 # The combination of Material-Theme-Darker-High-Contrast and Pycharm-Darcula-Theme
 
-Material-Theme-Darker-High-Contrast is one theme of [Material Theme Series](https://github.com/material-theme/vsc-material-theme).All I did was modify its performance under the python file so that it looks almost the same as pycharm's default theme darcula.
+`Material-Theme-Darker-High-Contrast` is one of [Material Theme Series](https://github.com/material-theme/vsc-material-theme). `Darcula` is the default theme in `Pycharm`.
 
-I think that most vscode themes do not perform very well under python files unless the author of that extension particularly likes python. Pycharm ’s language engine is more powerful, so darcula ’s performance is more detailed. For some particularly subtle places, we can’t shows its particularity on VS Code.
+All I did was modify its performance under the `Python` language and keep it looks almost the same as `Darcula`.
