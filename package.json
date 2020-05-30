@@ -1,5 +1,5 @@
 {
-  "name": "material-theme-dhc-mix-in-pycharm-darcula-theme",
+  "name": "material-theme-darker-high-contrast-darcula",
   "author": {
     "name": "alexzshl"
   },
@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/alexzshl/vsc-material-theme-dhc-mix-in-pycharm-darcula-theme",
   "displayName": "Material Theme DHC Mix In Pycharm Darcula Theme",
-  "description": "Material Theme Darker High Contrast Mix In Pycharm Darcula Theme",
+  "description": "Material Theme Darker High Contrast + Darcula",
   "keywords": [
     "material",
     "theme",

@@ -1,4 +1,4 @@
-# The combination of Material-Theme-Darker-High-Contrast and Pycharm-Darcula-Theme
+# Material Theme Darker High Contrast + Darcula
 
 `Material-Theme-Darker-High-Contrast` is one of [Material Theme Series](https://github.com/material-theme/vsc-material-theme). `Darcula` is the default theme in `Pycharm`.
 
