@@ -1,0 +1,2 @@
+- name: Vscode plugin release action
+  uses: JCofman/vscodeaction@v2.0.1
