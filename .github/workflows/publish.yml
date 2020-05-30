@@ -1,2 +1,5 @@
-- name: Vscode plugin release action
-  uses: JCofman/vscodeaction@v2.0.1
+- name: vsce publish
+  uses: sigma/vsce-publish-action@v0.0.2
+  with:
+    # vsce token
+    vsce_token: 
