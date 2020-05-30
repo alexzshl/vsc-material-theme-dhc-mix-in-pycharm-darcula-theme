@@ -1,6 +1,8 @@
 {
   "name": "material-theme-dhc-mix-in-pycharm-darcula-theme",
-  "author": {"name": "alexzshl"},
+  "author": {
+    "name": "alexzshl"
+  },
   "publisher": "alexzshl",
   "license": "MIT",
   "repository": {
@@ -19,7 +21,7 @@
     "pycharm",
     "darcula"
   ],
-  "version": "0.0.7",
+  "version": "0.0.8",
   "engines": {
     "vscode": "^1.37.0"
   },
